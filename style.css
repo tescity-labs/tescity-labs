@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+header, footer { background: #333; color: white; padding: 10px; text-align: center; }
+nav a { margin: 0 10px; color: #333; text-decoration: none; }
+form input, form textarea { display: block; margin-bottom: 10px; width: 100%; padding: 8px; }
