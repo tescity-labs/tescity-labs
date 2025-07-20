@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tescity.labs | 3D Printing Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fa-solid fa-cube"></i> tescity.labs</div>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#products"><i class="fa-solid fa-cubes"></i> Products</a></li>
+        <li><a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i> Services</a></li>
+        <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        <li><a href="#cart"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>🚀 Welcome to tescity.labs</h1>
+    <p>We bring your imagination to life through 3D printing and prototyping.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </section>
+
+  <section id="products">
+    <h2>🛍️ 3D Printed Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="images/product1.jpg" alt="Custom Keychain">
+        <h3>Custom Keychains</h3>
+        <p>Personalized 3D keychains for you and your brand.</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/product2.jpg" alt="Prototype Part">
+        <h3>Prototype Parts</h3>
+        <p>Precision-engineered 3D parts for innovation.</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>🛠️ Our Services</h2>
+    <ul>
+      <li><i class="fa-solid fa-print"></i> FDM, SLA & Resin 3D Printing</li>
+      <li><i class="fa-solid fa-gears"></i> Engineering Prototyping</li>
+      <li><i class="fa-solid fa-lightbulb"></i> College/Industrial Project Help</li>
+      <li><i class="fa-solid fa-file-lines"></i> Documentation & PPT Design</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>📖 About tescity.labs</h2>
+    <p>tescity.labs is a creative lab that transforms ideas into tangible products using advanced 3D printing. From hobbyists to professionals, we are your tech partner for building the future.</p>
+  </section>
+
+  <section id="contact">
+    <h2>📞 Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 tescity.labs — Powered by creativity 💡 | Made with ❤️</p>
+  </footer>
+</body>
+</html>
